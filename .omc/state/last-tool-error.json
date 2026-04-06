@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd ~/Desktop/hexswap-uniswap && sed -i 's/<title>Uniswap/<title>HexSwap/g' public/index.html && sed -i 's/\\\"Uniswap/\\\"HexSwap/g; s/\\\"uniswap/\\\"hexswap/g' public/manifest.json && echo \\\"HTM...",
+  "error": "Exit code 1\n/usr/bin/bash: line 17: Uniswap/\\: No such file or directory\nHTML done\nsed: -e expression #3, char 12: unterminated `s' command",
+  "timestamp": "2026-04-06T21:32:55.968Z",
+  "retry_count": 1
+}
